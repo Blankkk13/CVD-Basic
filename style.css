@@ -690,6 +690,48 @@ margin-top:5rem;
     text-align:center;
   }
 }
+/*----------------------ABOUT PAGE-----------*/
+.aboutp{
+  background:#ffffff;
+  padding-top: 13rem;
+  padding-bottom: 5rem;
+}
+.aboutp .aboutp__wrapper{
+  display:grid;
+  grid-template-columns:2fr 2fr;  
+  align-items:center;
+}
+.aboutp .aboutp__title h2{
+  color:#2b2b2b;
+  font-size:2rem;
+}
+.aboutp .aboutp__title h1{
+  color: #ffa700;
+
+}
+
+/*----------------------CONTACT TITLE-----------*/
+.contact {
+  background:#2b2b2b;
+  padding-top:13rem;
+  padding-bottom:100rem;
+}
+.contact .contact__wrapper{
+  display:columns;
+  grid-template-columns:2.5fr 1.5fr;
+  grid-gap:5rem;
+  margin-top:10rem;
+}
+.contact .contact__title h1{
+  font-size:5rem;
+  color:#ffa700;
+  font-weight:600;
+}
+.contact .contact__title p{
+  font-size: 2rem;
+  color:#ffffff;
+}
+
 /*----------------------REPEATABLE PATTERNS-----------*/
 
 .btn{
