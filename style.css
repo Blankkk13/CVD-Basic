@@ -845,11 +845,13 @@ margin-left:45rem;
   text-align:center;
 }
 .contact .contact__left__text{
-
+  text-align:center;
 }
 .contact .contact__left__text p{
-  text-align:center;
-  max-width:20rem;
+  text-align:justify;
+  width:40rem;
+ margin-left:6rem;
+  margin-right:10rem;
 }
 }
 /*----------------------About Project-----------*/
