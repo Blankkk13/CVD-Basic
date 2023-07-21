@@ -763,7 +763,7 @@ margin-top:5rem;
   font-weight:600;
   height:10rem
 }
-.contact .contact__text p{
+.contact .contact__left__text p{
   font-size: 2rem;
   color:#ffffff;
   width:60rem;
@@ -771,6 +771,44 @@ margin-top:5rem;
   text-align:justify;
 }
 
+.contact .contact__left__item{
+margin-top:8rem;
+margin-bottom:2rem;
+}
+.contact .contact__left__item ul li{
+  color:#ffffff;  
+  font-size:2rem;
+  width:40rem;
+}
+.contact .contact__left__item ul li a{
+  margin-right:4rem;
+  width:10rem;
+}
+.contact .contact__left__item a {
+  color:#ffa700;
+  font-size:2rem;
+  text-align:justify;
+  
+
+  
+}
+.contact .contact__left__icon ul{
+  display:flex;
+  align-items:center;
+  gap:2.5rem;
+}
+.contact .contact__left__icon ul li a{
+  font-size:3rem;
+  color:#ffffff;
+  
+}
+.contact .contact__left__icon a{
+  display:flex;
+  color:ffa700;
+  justify-content:center;
+  font-size:5rem;
+  
+}
 /*----------------------About Project-----------*/
 .aproject{
   padding:5rem 0;
@@ -874,7 +912,7 @@ margin-top:5rem;
 
 .aproject .aproject__card{
   margin-left:4rem;
-  margin-right:4gigrem;
+  margin-right:4rem;
   border-radius:2rem;
 }
 .aproject .aproject__card:hover{
