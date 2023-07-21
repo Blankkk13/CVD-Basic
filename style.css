@@ -748,23 +748,24 @@ margin-top:5rem;
 .contact {
   background:#2b2b2b;
   padding-top:10rem;
-  padding-bottom:50rem;
+  padding-bottom:26rem;
+  border-bottom:2px solid gray;
 }
 .contact .contact__wrapper{
-  display:columns;
-  grid-template-columns:2.5fr 1.5fr;
-  grid-gap:5rem;
-  margin-top:10rem;
+  display:grid;
+  grid-template-columns:2fr 2fr;
+
+  
 }
 
-.contact .contact__title h2{
+.contact .contact__item h2{
   font-size:5rem;
   color:#ffa700;
   font-weight:600;
   height:10rem
 }
 .contact .contact__left__text p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   color:#ffffff;
   width:60rem;
   width:60rem;
@@ -772,21 +773,22 @@ margin-top:5rem;
 }
 
 .contact .contact__left__item{
-margin-top:8rem;
+margin-top:6rem;
 margin-bottom:2rem;
 }
 .contact .contact__left__item ul li{
   color:#ffffff;  
-  font-size:2rem;
+  font-size:1.8rem;
   width:40rem;
+  height:8rem;
 }
 .contact .contact__left__item ul li a{
-  margin-right:4rem;
+  margin-right:2rem;
   width:10rem;
 }
 .contact .contact__left__item a {
   color:#ffa700;
-  font-size:2rem;
+  font-size:3rem;
   text-align:justify;
   
 
@@ -796,17 +798,45 @@ margin-bottom:2rem;
   display:flex;
   align-items:center;
   gap:2.5rem;
+  
 }
 .contact .contact__left__icon ul li a{
   font-size:3rem;
   color:#ffffff;
-  
+  margin-top:2rem;  
 }
 .contact .contact__left__icon a{
   display:flex;
   color:ffa700;
   justify-content:center;
   font-size:5rem;
+  
+}
+.contact .contact__right__item form{
+  display:grid;
+  margin-top:8rem;
+}
+
+.contact .contact__right__item input{
+  display:flex;
+  width:90%;
+ 
+  margin:2rem;
+  padding:2rem;
+  box-sizing:border-box;
+  items-align:center;
+  position:relative;
+}
+
+.contact .contact__right__item input:last-child{
+  padding:6rem;
+  
+}
+.contact .contact__right__item a{
+margin-left:45rem;
+}
+
+@media screen and (max-width:500px){
   
 }
 /*----------------------About Project-----------*/
