@@ -197,7 +197,7 @@ padding: 1.5 rem;
   height:.3rem;
   background-color:#ffa700;
   display:block;
-  boarder-radius:5rem;
+  border-radius:5rem;
   transition:.5s ease;
 }
 .header .toggle__menu span:nth-child(2){
@@ -1179,23 +1179,46 @@ width: 100%;
 .services .services__item{
   display: grid;
   grid-template-columns: 1fr;
+  gap:2rem;
+  width: 40rem;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+  
+}
+
+
+  
 }
 .services .services__item img{
   order: -1;
-  
+ 
 }
+
+  
 .services .second__services__item{
+  margin:0 auto;
+  width: 40rem;
   display: grid;
   grid-template-columns: 1fr;
+  gap: 2rem;
 }
+
+
+
 .services .third__services__item{
   display: grid;
   grid-template-columns: 1fr;
+  gap: 2rem;
+  width: 40rem;
+  margin-bottom: 2rem;
+  margin: 0 auto;
 }
 .services .third__services__item img{
   order: -1;
+  width: 40rem;
+  
 }
-}
+
 
 /*----------------------REPEATABLE PATTERNS-----------*/
 
