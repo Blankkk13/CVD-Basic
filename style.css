@@ -740,7 +740,7 @@ margin-top:5rem;
 }
 .aboutp .container a{
   display:flex;
-  color:ffa700;
+  color:#ffa700;
   justify-content:center;
   font-size:5rem;
 }
@@ -848,19 +848,25 @@ margin-left:45rem;
   text-align:center;
 }
 .contact .contact__left__text p{
-  text-align:justify;
-  width:40rem;
- margin-left:6rem;
-  margin-right:10rem;
+  text-align:center;
+ 
+ width: 40rem;
 }
+.contact .contact__left__item ul{
+  margin-left: 1.5rem;
 
+}
 .contact .contact__left__text ul li a{
   align-items: center;
-  text-align: center;
+ 
+}
+.contact .contact__right__item form{
+justify-content: center;
+width: 90%;
 }
 .contact .contact__right__item input{
   display: flex;
-  width: 70%;
+ 
   text-align: center;
 }
 .contact .contact__right__item input:last-child{
@@ -868,6 +874,9 @@ margin-left:45rem;
 }
 .contact .contact__right__item a{
 margin-left:13.5rem;
+}
+.contact .contact__left__icon ul{
+  margin-left: 1.5rem;
 }
 
 
@@ -995,6 +1004,7 @@ margin-left:13.5rem;
   margin: 0 auto;
   padding: 1.5rem;
   padding-bottom: 10rem;
+  
 }
 .services .services__item{
   display: grid;
@@ -1053,7 +1063,7 @@ margin-left:13.5rem;
   max-width: 130rem;
   margin: 0 auto;
   padding: 1.5rem;
-  
+  padding-bottom:10rem ;
 }
 
 .services .second__services__item{
@@ -1062,23 +1072,44 @@ margin-left:13.5rem;
   grid-template-columns:  2fr 2fr;
   gap: 20rem;
 }
+.services .second__services__item img{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap:20rem;
+}
+.services .second__services__text{
+width: 100%;  
+}
 .services .second__services__text h2{
   color:#ffa700;
   font-size: 4rem;
   font-weight: 800;
   width: 40rem;
+  max-width: 35rem;
+  margin-bottom: 4rem;
 }
 .services .second__services__text p{
   color: #ffffff;
   font-size: 2rem;
   text-align: justify;
+  height: 14rem;
+}
+.services .second__services__text h5{
+  color: #ffffff;
+  margin-top: 8rem;
+  
 }
 
 .services .second__services__text H3{
   color: #ffa700;
+  font-weight: 600;
+  font-size: 3rem;
 }
 .services .second__services__text h4{
   color: #ffffff;
+  font-size: 1rem;
+  width: 14rem;
+  font-style: italic;
 }
 
 .services .third__services{
@@ -1100,19 +1131,71 @@ margin-left:13.5rem;
   grid-template-columns:  2fr 2fr;
   gap: 20rem;
 }
+.services .third__services__item img{
+  width: 100%;
+}
+
+.services .third__services__text{
+  width: 100%;
+}
 .services .third__services__text h2{
   color:#ffa700;
   font-size: 4rem;
   font-weight: 800;
+  max-width: 35rem;
   width: 40rem;
+  margin-bottom: 4rem;
+}
+.services .third__services__text h5{
+  margin-top: 8rem;
 }
 .services .third__services__text p{
   color: #2b2b2b;
   font-size: 2rem;
   text-align: justify;
+  height: 14rem;
 }
 
-
+.services .third__services__text h3{
+  color: #ffa700;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.services .third__services__text h4{
+  font-size: 1rem;
+  width: 14rem;
+  font-style: italic;
+}.services a{
+    display:flex;
+  justify-content: center;
+  font-size:5rem;
+}
+.services .second__service a{
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+}
+@media screen and (max-width:500px){
+.services .services__item{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.services .services__item img{
+  order: -1;
+  
+}
+.services .second__services__item{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.services .third__services__item{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.services .third__services__item img{
+  order: -1;
+}
+}
 
 /*----------------------REPEATABLE PATTERNS-----------*/
 
